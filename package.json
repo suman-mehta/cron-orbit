@@ -1,0 +1,29 @@
+{
+  "name": "cron-orbit",
+  "version": "1.0.0",
+  "description": "Zero-dependency high-performance cron expression engine and ASCII timeline visualizer",
+  "type": "module",
+  "main": "src/core.js",
+  "bin": {
+    "cron-orbit": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node test/smoke.js",
+    "bench": "node test/bench.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "cron",
+    "parser",
+    "scheduler",
+    "terminal-visualization",
+    "zero-dependency",
+    "sre",
+    "devops"
+  ],
+  "author": "Principal Systems Engineer",
+  "license": "MIT"
+}
